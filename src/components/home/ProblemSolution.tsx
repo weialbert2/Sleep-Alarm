@@ -51,7 +51,7 @@ export default function ProblemSolution() {
         >
           <h2 className="section-heading">Why Your Current Alarm Is Failing You</h2>
           <p className="section-sub mx-auto">
-            Traditional sound alarms were designed before sleep science existed. Here's what the research shows.
+            Traditional sound alarms were designed before sleep science existed. Here&apos;s what the research shows.
           </p>
         </motion.div>
 
