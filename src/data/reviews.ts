@@ -1,0 +1,66 @@
+import type { Review } from "@/types";
+
+export const reviews: Review[] = [
+  {
+    id: "1",
+    author: "Sarah M.",
+    location: "New York, NY",
+    rating: 5,
+    title: "Game changer for couples",
+    body: "My husband is a light sleeper and I used to wake him up every morning with my phone alarm. This vibrating alarm changed everything. I wake up on time, he sleeps undisturbed. Worth every penny.",
+    date: "2024-11-14",
+    verified: true,
+  },
+  {
+    id: "2",
+    author: "James T.",
+    location: "Austin, TX",
+    rating: 5,
+    title: "I actually wake up now",
+    body: "I've been a chronic snooze-button abuser for 15 years. Tried everything. The vibration is so different from sound — my brain can't filter it out. First week using it I was 0-for-0 on snoozing. Incredible.",
+    date: "2024-10-22",
+    verified: true,
+  },
+  {
+    id: "3",
+    author: "Michelle K.",
+    location: "Chicago, IL",
+    rating: 5,
+    title: "Perfect for early mornings",
+    body: "I start work at 4:30am and my roommate doesn't wake up until 8. This alarm is silent and the vibration is strong enough to pull me out of a deep sleep. Highly recommend for early risers with housemates.",
+    date: "2024-12-03",
+    verified: true,
+  },
+  {
+    id: "4",
+    author: "David R.",
+    location: "Seattle, WA",
+    rating: 5,
+    title: "Pro version is absolutely worth it",
+    body: "I bought the standard first and it worked okay, then upgraded to the Pro. The difference in vibration intensity is real. I'm a very heavy sleeper and the Pro consistently wakes me up without fail.",
+    date: "2024-11-01",
+    verified: true,
+  },
+  {
+    id: "5",
+    author: "Anna L.",
+    location: "Los Angeles, CA",
+    rating: 4,
+    title: "Great concept, easy to use",
+    body: "Setting it up took about 30 seconds. The vibration is strong and consistent. Only wish it had multiple alarm times but for one daily alarm it's perfect.",
+    date: "2024-10-15",
+    verified: true,
+  },
+  {
+    id: "6",
+    author: "Robert P.",
+    location: "Boston, MA",
+    rating: 5,
+    title: "Finally keeping my partner happy",
+    body: "My wife works nights and sleeps days. I used to wake her up constantly with my alarm. This solved the problem completely. She hasn't been woken up by my alarm in 3 months.",
+    date: "2024-09-28",
+    verified: true,
+  },
+];
+
+export const homepageReviews = reviews.slice(0, 6);

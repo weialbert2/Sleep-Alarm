@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-roboto: "Roboto", sans-serif;
+
+  /* Brand */
+  --color-brand: #23ba81;
+  --color-brand-dark: #1da870;
+  --color-brand-light: #e8f9f2;
+  --color-brand-star: #0eb679;
+
+  /* Surface */
+  --color-surface: #ffffff;
+  --color-surface-muted: #f7f7f7;
+  --color-surface-dark: #111111;
+
+  /* Text */
+  --color-text-primary: #111111;
+  --color-text-body: #333333;
+  --color-text-muted: #666666;
+  --color-text-light: #999999;
+
+  /* Border */
+  --color-border: #e5e5e5;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-text-body bg-white;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-text-primary font-bold leading-tight;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  img {
+    @apply max-w-full;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply max-w-site mx-auto px-5 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center
+           bg-brand text-white font-semibold
+           rounded-btn px-6 py-3
+           shadow-btn
+           hover:bg-brand-dark hover:scale-[1.02]
+           active:scale-[0.99]
+           transition-all duration-200
+           cursor-pointer;
+  }
+
+  .btn-primary-lg {
+    @apply btn-primary px-8 py-4 text-base;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center
+           bg-transparent text-brand font-semibold
+           border-2 border-brand rounded-btn px-6 py-3
+           hover:bg-brand hover:text-white
+           transition-all duration-200
+           cursor-pointer;
+  }
+
+  .btn-outline-white {
+    @apply inline-flex items-center justify-center
+           bg-transparent text-white font-semibold
+           border-2 border-white rounded-btn px-6 py-3
+           hover:bg-white hover:text-brand
+           transition-all duration-200
+           cursor-pointer;
+  }
+
+  .badge {
+    @apply inline-block text-[10px] font-bold uppercase tracking-widest
+           px-2.5 py-1 rounded-badge;
+  }
+
+  .badge-brand {
+    @apply badge bg-brand text-white;
+  }
+
+  .badge-dark {
+    @apply badge bg-surface-dark text-white;
+  }
+
+  .badge-alert {
+    @apply badge bg-alert-red text-white;
+  }
+
+  .badge-outline {
+    @apply badge border border-brand text-brand bg-brand-light;
+  }
+
+  .card {
+    @apply bg-white border border-border rounded-card shadow-card
+           overflow-hidden;
+  }
+
+  .section-heading {
+    @apply text-3xl lg:text-4xl font-bold text-text-primary mb-4;
+  }
+
+  .section-sub {
+    @apply text-lg text-text-muted leading-relaxed max-w-2xl mx-auto;
+  }
+
+  .star {
+    @apply text-brand-star;
+    fill: #0eb679;
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Accordion animation */
+.accordion-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+}
+
+.accordion-content.open {
+  grid-template-rows: 1fr;
+}
+
+.accordion-inner {
+  overflow: hidden;
+}
