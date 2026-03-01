@@ -30,19 +30,18 @@ export default function GuaranteeSection() {
           {/* Text */}
           <div className="flex-1 text-center lg:text-left">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              100-Night, 100% Wake-Up Guarantee
+              100% Satisfaction Guarantee
             </h2>
             <p className="text-lg text-white/85 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-8">
-              If you don&apos;t wake up to your alarm even <strong className="text-white">once</strong> in the first 100 nights,
-              we&apos;ll give you a complete refund. No forms. No hassle. No questions asked.
-              We believe in our product that much.
+              We are so confident in MAXL ONE that we back every order with a <strong className="text-white">complete satisfaction guarantee</strong>.
+              If you are not blown away by the results, contact us for a full refund. No forms. No hassle. No questions asked.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
-                href="/products/100-wake-up-alarm"
+                href="#order"
                 className="btn-outline-white inline-flex justify-center"
               >
-                Try Risk-Free for 100 Nights
+                Get MAXL ONE Risk-Free
               </Link>
               <Link
                 href="#faq"

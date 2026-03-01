@@ -7,21 +7,21 @@ import { useRef } from "react";
 const steps = [
   {
     step: "01",
-    title: "Charge Your Alarm",
-    desc: "Plug in the included USB cable. Fully charged in under 2 hours. Lasts 30–60 days per charge.",
-    icon: "⚡",
+    title: "Spray MAXL ONE",
+    desc: "Lightly mist MAXL ONE directly onto any surface — paint, glass, chrome, plastic, leather, or rubber. A little goes a long way.",
+    icon: "💧",
   },
   {
     step: "02",
-    title: "Set Your Wake Time",
-    desc: "Hold the button, use short presses to set hours and minutes, hold to confirm. 30 seconds total.",
-    icon: "⏰",
+    title: "Wipe with Microfiber Towel",
+    desc: "Using your included microfiber towel, gently wipe the surface in circular motions. Watch dirt, grime, and water spots disappear instantly.",
+    icon: "✨",
   },
   {
     step: "03",
-    title: "Sleep & Wake Up",
-    desc: "Wear it on your wrist. At your set time, it vibrates firmly until you wake. Every time. Guaranteed.",
-    icon: "✅",
+    title: "Admire the Shine",
+    desc: "Step back and enjoy a deep, mirror-like shine with long-lasting hydrophobic protection — done in minutes, from your driveway.",
+    icon: "🏆",
   },
 ];
 
@@ -38,9 +38,9 @@ export default function HowItWorks() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="section-heading">Wake Up in 3 Simple Steps</h2>
+          <h2 className="section-heading">How It Works in 3 Simple Steps</h2>
           <p className="section-sub mx-auto">
-            No apps. No Bluetooth. No complicated setup. Just set it and sleep.
+            No buckets. No hoses. No car wash lines. Just spray, wipe, and shine.
           </p>
         </motion.div>
 

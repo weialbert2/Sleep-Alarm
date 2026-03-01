@@ -18,19 +18,19 @@ export default function FinalCTABanner() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-            Stop Sleeping Through Your Life
+            Never Wash Your Vehicle Again
           </h2>
           <p className="text-lg text-white/70 leading-relaxed max-w-xl mx-auto mb-8">
-            Join 175,000+ people who never miss their morning. Risk-free for 100 nights.
+            Join thousands of vehicle owners who have discovered the effortless way to keep everything looking NEW. Save up to 66% today.
           </p>
           <Link
-            href="/products/100-wake-up-alarm"
-            className="btn-primary-lg inline-flex"
+            href="#order"
+            className="btn-yellow-lg inline-flex font-black uppercase tracking-wide"
           >
-            Get Yours — Risk Free
+            GET YOURS NOW
           </Link>
           <p className="text-sm text-white/50 mt-4">
-            Free shipping over $50 · 100-night trial · Secure checkout
+            Free shipping on 3-Kit &amp; Gallon orders · 100% satisfaction guarantee · Secure checkout
           </p>
         </motion.div>
       </div>

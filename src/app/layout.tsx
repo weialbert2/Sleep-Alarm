@@ -8,32 +8,32 @@ import CartDrawer from "@/components/cart/CartDrawer";
 
 export const metadata: Metadata = {
   title: {
-    default: "FitSleeps® | 100% Wake-Up Guarantee | Vibrating Alarm",
-    template: "%s | FitSleeps®",
+    default: "MAXL ONE® | Never Wash Your Vehicle Again | Multi-Surface Spray",
+    template: "%s | MAXL ONE®",
   },
   description:
-    "The silent vibrating wristband alarm that guarantees you wake up — without disturbing your partner. Trusted by 175,000+ deep sleepers. 100-night money-back guarantee.",
+    "MAXL ONE is the all-purpose, multi-surface clean, shine, and protect spray that makes everything look NEW again — effortlessly. Trusted by thousands of vehicle owners.",
   keywords: [
-    "vibrating alarm",
-    "silent alarm",
-    "wake up alarm",
-    "wristband alarm",
-    "deep sleeper alarm",
-    "partner-friendly alarm",
-    "FitSleeps",
+    "car cleaning spray",
+    "vehicle detailing",
+    "car shine spray",
+    "multi-surface cleaner",
+    "MAXL ONE",
+    "car wash alternative",
+    "vehicle protectant",
   ],
   openGraph: {
-    title: "FitSleeps® | 100% Wake-Up Guarantee",
-    description: "Silent vibrating alarm. Trusted by 175,000+ people. 100-night trial.",
-    url: "https://fitsleeps.com",
-    siteName: "FitSleeps",
+    title: "MAXL ONE® | Never Wash Your Vehicle Again",
+    description: "The all-purpose spray that cleans, shines, and protects every surface. Make everything look NEW again.",
+    url: "https://maxl.com",
+    siteName: "MAXL ONE",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "FitSleeps® | 100% Wake-Up Guarantee",
-    description: "Silent vibrating alarm. Trusted by 175,000+ people. 100-night trial.",
+    title: "MAXL ONE® | Never Wash Your Vehicle Again",
+    description: "The all-purpose spray that cleans, shines, and protects every surface.",
   },
 };
 

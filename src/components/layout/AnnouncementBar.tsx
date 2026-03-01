@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const messages = [
-  "🚚 FREE SHIPPING ON ORDERS $50+",
-  "⭐ 175,000+ Happy Customers",
-  "🔄 100-Night Money-Back Guarantee",
+  "🔥 SPECIAL OFFER ENDS SOON — Save Up to 66%!",
+  "🚚 FREE SHIPPING on 3-Kit & Gallon Kit Orders",
+  "⭐ Trusted by Thousands of Vehicle Owners",
 ];
 
 export default function AnnouncementBar() {
@@ -20,10 +20,10 @@ export default function AnnouncementBar() {
   }, []);
 
   return (
-    <div className="bg-surface-dark text-white h-9 flex items-center justify-center overflow-hidden">
+    <div className="bg-brand text-white h-9 flex items-center justify-center overflow-hidden">
       <Link
-        href="/products/100-wake-up-alarm"
-        className="text-xs font-medium tracking-widest uppercase text-center px-4 hover:opacity-80 transition-opacity"
+        href="#order"
+        className="text-xs font-bold tracking-widest uppercase text-center px-4 hover:opacity-80 transition-opacity"
       >
         {messages[current]}
       </Link>

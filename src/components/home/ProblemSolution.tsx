@@ -5,19 +5,19 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 
 const problems = [
-  "Wakes your partner (and everyone else)",
-  "Your brain tunes out the same sound daily",
-  "You hit snooze 3× and panic",
-  "Phone screen first thing = anxiety",
-  "No guarantee you'll actually wake up",
+  "Expensive — $15 to $50 per visit, every week",
+  "Harsh brushes leave swirl marks and scratches",
+  "Strips wax and protective coatings",
+  "Takes hours of your time",
+  "Zero lasting protection — back to square one next week",
 ];
 
 const solutions = [
-  "Vibrates only on your wrist — zero noise",
-  "Physical sensation bypasses auditory habituation",
-  "Vibration is harder to dismiss and ignore",
-  "No phone needed — leave it in another room",
-  "100% Wake-Up Guarantee or full refund",
+  "One purchase — saves hundreds vs. car washes",
+  "Applied gently by hand with microfiber towel",
+  "Leaves a deep, long-lasting protective layer",
+  "Done in minutes from your driveway",
+  "24/7 shine and protection that keeps working",
 ];
 
 function CheckIcon({ bad }: { bad?: boolean }) {
@@ -49,9 +49,9 @@ export default function ProblemSolution() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="section-heading">Why Your Current Alarm Is Failing You</h2>
+          <h2 className="section-heading">Why the Car Wash Is Costing You More Than Money</h2>
           <p className="section-sub mx-auto">
-            Traditional sound alarms were designed before sleep science existed. Here&apos;s what the research shows.
+            Traditional car washes were designed for speed, not for your vehicle. Here&apos;s what they don&apos;t tell you.
           </p>
         </motion.div>
 
@@ -65,7 +65,7 @@ export default function ProblemSolution() {
           >
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">😩</span>
-              <h3 className="text-base font-bold text-text-primary">Traditional Sound Alarm</h3>
+              <h3 className="text-base font-bold text-text-primary">Traditional Car Wash</h3>
             </div>
             <ul className="space-y-3">
               {problems.map((p, i) => (
@@ -82,11 +82,11 @@ export default function ProblemSolution() {
             initial={{ opacity: 0, x: 20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-brand-light rounded-card p-6 border border-green-100"
+            className="bg-brand-light rounded-card p-6 border border-red-100"
           >
             <div className="flex items-center gap-2 mb-5">
-              <span className="text-lg">😌</span>
-              <h3 className="text-base font-bold text-text-primary">FitSleeps Vibrating Alarm</h3>
+              <span className="text-lg">✨</span>
+              <h3 className="text-base font-bold text-text-primary">MAXL ONE Spray</h3>
             </div>
             <ul className="space-y-3">
               {solutions.map((s, i) => (

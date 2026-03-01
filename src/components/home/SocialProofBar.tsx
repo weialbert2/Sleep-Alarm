@@ -2,22 +2,22 @@ const items = [
   {
     icon: "⭐",
     stat: "4.9 / 5",
-    label: "65,000+ Reviews",
+    label: "5,000+ Verified Reviews",
   },
   {
     icon: "🛡",
-    stat: "100-Night",
-    label: "Money-Back Guarantee",
+    stat: "100%",
+    label: "Satisfaction Guarantee",
   },
   {
     icon: "🚚",
     stat: "Free Shipping",
-    label: "On Orders Over $50",
+    label: "On 3-Kit & Gallon Orders",
   },
   {
-    icon: "👥",
-    stat: "175,000+",
-    label: "Happy Customers",
+    icon: "🔒",
+    stat: "Secure",
+    label: "Checkout",
   },
 ];
 

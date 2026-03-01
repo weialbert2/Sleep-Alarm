@@ -1,16 +1,21 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import ProductCard from "@/components/ui/ProductCard";
-import { accessoryProducts, bundleProducts } from "@/data/products";
+
+const surfaces = [
+  { emoji: "🚗", label: "Cars & Trucks", desc: "Paint, clearcoat, glass, chrome, plastic, rubber, leather, vinyl" },
+  { emoji: "🏍️", label: "Motorcycles", desc: "Gas tanks, chrome pipes, fenders, fairings, windshields" },
+  { emoji: "🚌", label: "RVs & Campers", desc: "Full exterior, fiberglass, awnings, windows, interior surfaces" },
+  { emoji: "⛵", label: "Boats", desc: "Fiberglass hull, gelcoat, chrome hardware, vinyl seating, canvas" },
+  { emoji: "✈️", label: "Planes", desc: "Fuselage, wings, cockpit glass, aluminum, composite panels" },
+  { emoji: "🏠", label: "Home Surfaces", desc: "Granite, stainless steel, chrome fixtures, glass, tile, appliances" },
+];
 
 export default function AccessoriesSection() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
-  const featuredAccessories = [...accessoryProducts, ...bundleProducts].slice(0, 4);
 
   return (
     <section className="py-section bg-surface-muted" ref={ref}>
@@ -21,29 +26,28 @@ export default function AccessoriesSection() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="section-heading">Complete Your Sleep Routine</h2>
+          <h2 className="section-heading">Works on Every Surface You Own</h2>
           <p className="section-sub mx-auto">
-            Pair your wake-up alarm with our sleep health accessories for deeper, healthier rest.
+            MAXL ONE is the only spray you need — for every vehicle, every surface, every time.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-          {featuredAccessories.map((product, i) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {surfaces.map((surface, i) => (
             <motion.div
-              key={product.id}
+              key={i}
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.45, delay: i * 0.08 }}
+              transition={{ duration: 0.45, delay: i * 0.07 }}
+              className="bg-white rounded-card p-5 shadow-card flex items-start gap-4"
             >
-              <ProductCard product={product} compact />
+              <span className="text-3xl flex-shrink-0">{surface.emoji}</span>
+              <div>
+                <h3 className="text-sm font-bold text-text-primary mb-1">{surface.label}</h3>
+                <p className="text-xs text-text-muted leading-relaxed">{surface.desc}</p>
+              </div>
             </motion.div>
           ))}
-        </div>
-
-        <div className="text-center mt-10">
-          <Link href="/collections/all" className="btn-secondary inline-flex">
-            Shop All Accessories
-          </Link>
         </div>
       </div>
     </section>

@@ -21,7 +21,7 @@ export default function FAQSection() {
         >
           <h2 className="section-heading">Frequently Asked Questions</h2>
           <p className="section-sub mx-auto">
-            Everything you need to know before you buy.
+            Everything you need to know about MAXL ONE.
           </p>
         </motion.div>
 

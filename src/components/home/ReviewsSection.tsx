@@ -23,7 +23,7 @@ export default function ReviewsSection() {
           transition={{ duration: 0.5 }}
           className="text-center mb-4"
         >
-          <h2 className="section-heading">What 65,000+ Customers Are Saying</h2>
+          <h2 className="section-heading">What Our Customers Are Saying</h2>
         </motion.div>
 
         {/* Summary bar */}
@@ -37,7 +37,7 @@ export default function ReviewsSection() {
             <span className="text-5xl font-black text-text-primary">4.9</span>
             <div>
               <StarRating rating={4.9} size="lg" showCount={false} />
-              <p className="text-sm text-text-muted mt-0.5">Based on 65,000+ reviews</p>
+              <p className="text-sm text-text-muted mt-0.5">Based on 5,000+ verified reviews</p>
             </div>
           </div>
         </motion.div>

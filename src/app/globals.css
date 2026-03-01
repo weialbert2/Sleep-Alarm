@@ -6,10 +6,10 @@
   --font-roboto: "Roboto", sans-serif;
 
   /* Brand */
-  --color-brand: #23ba81;
-  --color-brand-dark: #1da870;
-  --color-brand-light: #e8f9f2;
-  --color-brand-star: #0eb679;
+  --color-brand: #e62129;
+  --color-brand-dark: #c4181f;
+  --color-brand-light: #fdecea;
+  --color-brand-star: #FFD200;
 
   /* Surface */
   --color-surface: #ffffff;
@@ -78,6 +78,20 @@
     @apply btn-primary px-8 py-4 text-base;
   }
 
+  .btn-yellow {
+    @apply inline-flex items-center justify-center
+           bg-yellow text-black font-bold
+           rounded-btn px-6 py-3
+           hover:bg-yellow-dark hover:scale-[1.02]
+           active:scale-[0.99]
+           transition-all duration-200
+           cursor-pointer;
+  }
+
+  .btn-yellow-lg {
+    @apply btn-yellow px-8 py-4 text-base;
+  }
+
   .btn-secondary {
     @apply inline-flex items-center justify-center
            bg-transparent text-brand font-semibold
@@ -132,7 +146,7 @@
 
   .star {
     @apply text-brand-star;
-    fill: #0eb679;
+    fill: #FFD200;
   }
 }
 

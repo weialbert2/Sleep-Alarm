@@ -5,10 +5,10 @@ import Link from "next/link";
 import { useCartStore } from "@/store/cartStore";
 
 const navLinks = [
-  { label: "Shop", href: "/collections/all" },
-  { label: "About", href: "/pages/about" },
-  { label: "Reviews", href: "/#reviews" },
-  { label: "Blog", href: "/blogs/news" },
+  { label: "Shop", href: "#order" },
+  { label: "How It Works", href: "#how-it-works" },
+  { label: "Reviews", href: "#reviews" },
+  { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "/pages/contact" },
 ];
 
@@ -82,8 +82,8 @@ export default function Header() {
           href="/"
           className="flex items-center gap-1 text-xl font-bold text-text-primary hover:text-brand transition-colors"
         >
-          <span>Fit</span>
-          <span className="text-brand">Sleeps</span>
+          <span className="text-brand">MAXL</span>
+          <span className="text-surface-dark">ONE</span>
           <span className="text-brand text-xs align-super">®</span>
         </Link>
 
@@ -102,14 +102,12 @@ export default function Header() {
 
         {/* Right icons */}
         <div className="flex items-center gap-1">
-          <button
-            className="p-2 text-text-primary hover:text-brand transition-colors hidden lg:block"
-            aria-label="Search"
+          <Link
+            href="#order"
+            className="hidden lg:inline-flex btn-primary text-sm px-4 py-2"
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-            </svg>
-          </button>
+            GET YOURS NOW
+          </Link>
           <CartIcon />
         </div>
       </div>

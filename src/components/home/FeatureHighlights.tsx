@@ -8,20 +8,12 @@ const features = [
   {
     icon: (
       <svg className="w-8 h-8 text-brand" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9.348 14.651a3.75 3.75 0 010-5.303m5.304-.001a3.75 3.75 0 010 5.304m-7.425 2.122a6.75 6.75 0 010-9.546m9.546 0a6.75 6.75 0 010 9.546M5.106 18.894c-3.808-3.808-3.808-9.98 0-13.789m13.788 0c3.808 3.808 3.808 9.981 0 13.79M12 12h.008v.007H12V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707" />
       </svg>
     ),
-    title: "Silent Vibration Technology",
-    desc: "Wakes you through your wrist, not your ears. Zero noise. Zero disturbance to anyone else in the room.",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8 text-brand" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-      </svg>
-    ),
-    title: "30+ Day Battery Life",
-    desc: "Charge it once and forget about it for an entire month. USB rechargeable in under 2 hours.",
+    title: "Deep Mirror-Like Shine",
+    desc: "MAXL ONE's advanced polymer formula delivers a rich, deep shine that rivals professional detailing — on every application.",
   },
   {
     icon: (
@@ -29,35 +21,44 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
       </svg>
     ),
-    title: "100-Night Guarantee",
-    desc: "If your alarm fails to wake you even once in 100 nights, we'll give you a full refund. No questions.",
+    title: "Cleans & Protects at Once",
+    desc: "One spray does the work of three products: cleaner, polish, and protectant. Spray on, wipe off — done.",
   },
   {
     icon: (
       <svg className="w-8 h-8 text-brand" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 9v7.5" />
       </svg>
     ),
-    title: "Works for Deep Sleepers",
-    desc: "Clinically-inspired vibration pattern activates the sensory nervous system — the signal your brain can't tune out.",
+    title: "Long-Lasting Protection",
+    desc: "Unlike a car wash that leaves your vehicle unprotected, MAXL ONE seals the surface with a durable hydrophobic layer that repels water, dust, and UV rays.",
   },
   {
     icon: (
       <svg className="w-8 h-8 text-brand" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
       </svg>
     ),
-    title: "Partner-Friendly Wake-Up",
-    desc: "Used by thousands of couples who work different schedules. Finally, one person can wake early without waking the other.",
+    title: "Works on Every Surface",
+    desc: "Paint, glass, chrome, aluminum, plastic, rubber, leather, vinyl, fiberglass — MAXL ONE handles them all safely and effectively.",
   },
   {
     icon: (
       <svg className="w-8 h-8 text-brand" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 8.25h3m-3 3h3m-3 3h3M6.75 21h10.5" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: "No Phone in Bedroom",
-    desc: "Break the screen addiction cycle. Leave your phone charging in another room and sleep deeper.",
+    title: "Done in Minutes",
+    desc: "No buckets, no hoses, no waiting in line. Grab a microfiber towel, spray, wipe, and your vehicle is showroom-ready in under 10 minutes.",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8 text-brand" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+      </svg>
+    ),
+    title: "Cars, Trucks, RVs, Boats & More",
+    desc: "MAXL ONE works just as well on motorcycles, RVs, boats, planes, and heavy equipment. One product for every vehicle you own.",
   },
 ];
 
@@ -74,9 +75,9 @@ export default function FeatureHighlights() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="section-heading">Built for the Deepest Sleepers</h2>
+          <h2 className="section-heading">One Spray. Every Surface. Showroom Results.</h2>
           <p className="section-sub mx-auto">
-            Everything engineered around one goal: making sure you wake up, every single time.
+            MAXL ONE is engineered to clean, shine, and protect better than anything else — in a fraction of the time.
           </p>
         </motion.div>
 

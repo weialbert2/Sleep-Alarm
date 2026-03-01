@@ -2,57 +2,52 @@ import type { FAQ } from "@/types";
 
 export const homeFAQs: FAQ[] = [
   {
-    question: "How does the vibrating alarm work?",
+    question: "What surfaces can MAXL ONE be used on?",
     answer:
-      "The FitSleeps alarm uses a precision vibration motor inside the wristband that activates at your set time. The vibration transmits physical sensation through your wrist, activating nerve endings in your skin and sending a direct wake-up signal to your brain's sensory system — bypassing the auditory habituation that makes sound alarms easy to sleep through.",
+      "MAXL ONE is a true multi-surface spray that works on virtually any surface: car paint, glass, chrome, aluminum, plastic, rubber, leather, vinyl, stainless steel, fiberglass, and more. It is safe for use on cars, trucks, motorcycles, RVs, boats, planes, and even household surfaces.",
   },
   {
-    question: "Will it wake my partner?",
+    question: "Do I need to wash my vehicle first?",
     answer:
-      "No. The vibration is fully contained within the wristband on your wrist. It produces absolutely zero sound and can only be felt by the wearer. Thousands of couples use FitSleeps so one partner can wake early without disturbing the other.",
+      "For best results on heavily soiled vehicles, a quick rinse beforehand helps remove loose dirt. However, MAXL ONE is formulated to clean and lift surface contamination on its own — simply spray, wipe with a microfiber towel, and watch the grime disappear while a protective shine is left behind.",
   },
   {
-    question: "How long does the battery last?",
+    question: "How long does one 20oz bottle last?",
     answer:
-      "The standard 100% Wake-Up Alarm lasts 30+ days per charge. The Pro Version lasts 60+ days per charge. You'll receive a low-battery notification vibration pattern before the battery dies completely.",
+      "One 20oz bottle is enough to fully clean and protect an average-sized car 4–6 times, depending on application method and surface area. The gallon kit provides exceptional value for those with multiple vehicles or frequent use.",
   },
   {
-    question: "What if it doesn't wake me up?",
+    question: "Is MAXL ONE safe on all paint colors and finishes?",
     answer:
-      "That's exactly what our 100-Night Guarantee is for. If you fail to wake up to your alarm even once in the first 100 nights, contact our support team for a full, no-questions-asked refund. We stand completely behind our product.",
+      "Yes. MAXL ONE is pH-balanced and safe for all paint colors, clearcoats, matte finishes, ceramic coatings, and vinyl wraps. Its gentle but powerful formula cleans without stripping wax or sealant layers.",
   },
   {
-    question: "Is it waterproof?",
+    question: "How does MAXL ONE compare to a traditional car wash?",
     answer:
-      "The standard version is splash-resistant and safe for everyday wear, but not suitable for swimming or submersion. If you need full waterproofing — for swimming, showering, or intense workouts — add the Waterproof Upgrade to your order at checkout.",
+      "Traditional car washes use harsh brushes and chemicals that can scratch your paint and strip protective coatings. MAXL ONE is applied by hand with a soft microfiber towel, leaving a clean, protected, showroom-quality shine — without the scratches, waiting in line, or recurring cost.",
   },
   {
-    question: "How do I set the alarm time?",
+    question: "Is there a money-back guarantee?",
     answer:
-      "Setting the alarm is simple: press and hold the button for 3 seconds to enter set mode. The device will vibrate to confirm. Use short presses to advance hours, then hold again to switch to minutes. Hold once more to confirm and save your alarm time. The entire process takes under 30 seconds.",
+      "Absolutely. We stand behind MAXL ONE 100%. If you are not completely satisfied with your purchase for any reason, contact our support team for a full refund. No hassle, no runaround.",
   },
   {
-    question: "What is the difference between the Standard and Pro version?",
+    question: "Where is MAXL ONE made?",
     answer:
-      "The Pro Version delivers up to 2× stronger vibration intensity, has a 60+ day (vs. 30+ day) battery life, includes an extended strap for all wrist sizes, and comes with an extra backup device. It's recommended for very deep sleepers or those who want maximum reliability.",
+      "MAXL ONE is proudly formulated and manufactured in the United States using premium-grade ingredients. Every batch is quality-tested before it ships.",
   },
 ];
 
 export const productFAQs: FAQ[] = [
   ...homeFAQs,
   {
-    question: "What's in the box?",
+    question: "What is included in each kit?",
     answer:
-      "Your order includes: 1× FitSleeps Alarm wristband, 1× USB charging cable, 1× quick-start guide. The Pro Version also includes a second alarm unit as backup.",
+      "The 1 Kit includes 1x MAXL ONE 20oz bottle and 2x microfiber towels. The 2 Kit includes 2x bottles and 4x towels. The 3 Kit includes 3x bottles and 6x towels with free shipping. The Gallon Kit includes 1x gallon, 1x 20oz bottle, and 8x towels with free shipping.",
   },
   {
     question: "How long does shipping take?",
     answer:
-      "Standard shipping takes 3–7 business days within the US. Express 2-day shipping is available at checkout. All orders over $50 ship free.",
-  },
-  {
-    question: "Can I return it if I don't like it?",
-    answer:
-      "Absolutely. We offer a 100-night trial. If you're not satisfied for any reason within 100 nights of receiving your order, contact us for a full refund. No forms, no hassle.",
+      "Standard shipping takes 3–7 business days within the US. Free shipping is included with the 3 Kit and Gallon Kit (lower 48 states). Express shipping options are available at checkout.",
   },
 ];

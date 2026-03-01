@@ -10,10 +10,14 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          DEFAULT: "#23BA81",
-          dark: "#1DA870",
-          light: "#E8F9F2",
-          star: "#0EB679",
+          DEFAULT: "#E62129",
+          dark: "#C4181F",
+          light: "#FDECEA",
+          star: "#FFD200",
+        },
+        yellow: {
+          DEFAULT: "#FFD200",
+          dark: "#E6BD00",
         },
         surface: {
           DEFAULT: "#FFFFFF",
@@ -64,7 +68,7 @@ const config: Config = {
       boxShadow: {
         card:       "0 2px 12px rgba(0,0,0,0.08)",
         "card-hover":"0 8px 24px rgba(0,0,0,0.12)",
-        btn:        "0 4px 16px rgba(35,186,129,0.3)",
+        btn:        "0 4px 16px rgba(230,33,41,0.35)",
         sticky:     "0 -2px 16px rgba(0,0,0,0.12)",
         nav:        "0 2px 8px rgba(0,0,0,0.08)",
       },
